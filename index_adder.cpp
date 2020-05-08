@@ -40,7 +40,7 @@ int main( int argc, char *argv[] )
     }
 
     // sort the words by length
-    std::vector<std::vector<std::string>> words_table(128);
+    std::vector<std::vector<std::string>> words_table(32);
     for( std::string word; ifs >> word; )
     {
         if( word.size() > 32) continue;
